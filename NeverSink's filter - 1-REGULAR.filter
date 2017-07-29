@@ -732,7 +732,7 @@ Hide # Minimize junk instead of hiding (if "Show") %TC-Junkable
 Show # %TB-Currency-T4
 	Class Currency
 	BaseType "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Silver Coin" "Glassblower's Bauble"
-	SetFontSize 40
+	SetFontSize 45
 	SetTextColor 210 178 135 255         # TEXTCOLOR:	 Low currency T1
 	SetBorderColor 213 159 100 200       # BORDERCOLOR:	 T1 LOW currency
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
@@ -740,13 +740,14 @@ Show # %TB-Currency-T4
 Show # %H4 %TB-Currency-T5
 	Class Currency
 	BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Alchemy Shard"
-	SetFontSize 36
+	SetFontSize 45
 	SetBorderColor 190 178 135 110       # BORDERCOLOR:	 T2 LOW currency
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
 
 Show # %H3 %TB-Currency-T6
 	Class Currency
 	BaseType "Armourer's Scrap" "Orb of Augmentation" "Alteration Shard"
+	SetFontSize 45
 	SetTextColor 170 158 130 220         # TEXTCOLOR:	 Low currency T3
 	SetBorderColor 60 50 30 255          # BORDERCOLOR:	 T3 LOW currency
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
@@ -754,6 +755,7 @@ Show # %H3 %TB-Currency-T6
 Show # %H3 %TB-Currency-T7
 	Class Currency
 	BaseType "Portal Scroll" "Scroll of Wisdom"
+	SetFontSize 45
 	SetTextColor 170 158 130 220         # TEXTCOLOR:	 Low currency T3
 	SetBorderColor 60 50 30 255          # BORDERCOLOR:	 T3 LOW currency
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
@@ -2386,7 +2388,7 @@ Show # %TB-Currency-T1.5
 Show # %TB-Currency-T2
 	Class Currency
 	BaseType "Regal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Vaal Orb" "Apprentice Cartographer's Sextant" "Stacked Deck" "Orb of Scouring"
-	SetFontSize 42
+	SetFontSize 45
 	SetTextColor 0 0 0 255               # TEXTCOLOR:	 Cosmetic: Black Text
 	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Cosmetic: Highlight good drops
 	SetBackgroundColor 249 150 25 255    # BACKGROUND:	 T2 Currency
@@ -2395,7 +2397,7 @@ Show # %TB-Currency-T2
 Show # %TB-Currency-T3
 	Class Currency
 	BaseType "Blessed Orb" "Orb of Fusing" "Orb of Alchemy" "Cartographer's Chisel"
-	SetFontSize 42
+	SetFontSize 45
 	SetTextColor 0 0 0 255               # TEXTCOLOR:	 Cosmetic: Black Text
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 213 159 0 255     # BACKGROUND:	 T3 Currency

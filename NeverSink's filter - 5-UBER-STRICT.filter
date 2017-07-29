@@ -345,13 +345,13 @@ Show #$lead to gold bases %TC-Corrupted-Bases
 # Example, to add Agate amulet:
 # BaseType "Sorcerer Boots" "Agate Amulet"
 
-#Show #$chancing (with sound) %TB-T1-Chancing %D4
-#	BaseType "Sorcerer Boots"
-#	Rarity Normal
-#	SetFontSize 38
-#	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Normal Items: Strong Highlight
-#	SetBorderColor 0 210 0 210           # BORDERCOLOR:	 T1 Chancing
-#	PlayAlertSound 7 300                 # DROPSOUND:	 T1 chancing items
+Show #$chancing (with sound) %TB-T1-Chancing %D4
+	BaseType "Sorcerer Boots"
+	Rarity Normal
+	SetFontSize 38
+	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Normal Items: Strong Highlight
+	SetBorderColor 0 210 0 210           # BORDERCOLOR:	 T1 Chancing
+	PlayAlertSound 7 300                 # DROPSOUND:	 T1 chancing items
 
 #Show #$chancing (no sound) %TB-T2-Chancing %D4
 #	BaseType "Leather Belt"
@@ -732,7 +732,7 @@ Hide # Minimize junk instead of hiding (if "Show") %TC-Junkable
 Show # %TB-Currency-T4
 	Class Currency
 	BaseType "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Silver Coin" "Glassblower's Bauble"
-	SetFontSize 40
+	SetFontSize 45
 	SetTextColor 210 178 135 255         # TEXTCOLOR:	 Low currency T1
 	SetBorderColor 213 159 100 200       # BORDERCOLOR:	 T1 LOW currency
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
@@ -2386,7 +2386,7 @@ Show # %TB-Currency-T1.5
 Show # %TB-Currency-T2
 	Class Currency
 	BaseType "Regal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Vaal Orb" "Apprentice Cartographer's Sextant" "Stacked Deck" "Orb of Scouring"
-	SetFontSize 42
+	SetFontSize 45
 	SetTextColor 0 0 0 255               # TEXTCOLOR:	 Cosmetic: Black Text
 	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Cosmetic: Highlight good drops
 	SetBackgroundColor 249 150 25 255    # BACKGROUND:	 T2 Currency
@@ -2395,7 +2395,7 @@ Show # %TB-Currency-T2
 Show # %TB-Currency-T3
 	Class Currency
 	BaseType "Blessed Orb" "Orb of Fusing" "Orb of Alchemy" "Cartographer's Chisel"
-	SetFontSize 42
+	SetFontSize 45
 	SetTextColor 0 0 0 255               # TEXTCOLOR:	 Cosmetic: Black Text
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 213 159 0 255     # BACKGROUND:	 T3 Currency
